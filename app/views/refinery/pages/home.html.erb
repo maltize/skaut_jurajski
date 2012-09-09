@@ -1,17 +1,15 @@
 <div id="main" class="container_16">
   <div class="grid_4">
     <%= render(:partial => "/refinery/menu", :locals => {
-             :dom_id => 'menu',
-             :css => 'menu'
-           }) %>
+               :dom_id => 'menu',
+               :css => 'menu'
+        }) %>
   </div>
+
   <div class="grid_12">
     <section id='body_content'>
       <%=raw @page.content_for(:body) %>
     </section>
-<!--     <section id='side_body_content'>
-      <%=raw @page.content_for(:side_body) %>
-    </section> -->
   </div>
 </div>
 <div class="clear"></div>

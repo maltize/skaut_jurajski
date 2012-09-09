@@ -65,24 +65,39 @@ footer p a:hover {
   text-decoration: underline;
 }
 
+#main .grid_4 {
+  padding: 10px 0;
+  background-color: #9BC959;
+  font-size: 14px;
+}
+
+#menu {
+  color: #FFFFFF;
+}
+
 #menu a {
   color: #FFFFFF;
+}
+
+#menu ul li.group {
+  padding: 0 0 10px 0;
 }
 
 #menu ul {
   list-style: none;
   list-style-type: none;
   background-color: #9BC959;
-  padding: 10px 0;
+  margin: 0;
   li {
     margin-left: 10px;
+    padding: 0;
     a {
       color: #FFFFFF;
     }
-    &.selected a, a:hover {
+/*    &.selected a, a:hover {
       font-weight: bold;
       text-decoration: none;
-    }
+    }*/
   }
 }
 
@@ -90,10 +105,7 @@ footer p a:hover {
   margin-top: 20px;
   margin-bottom: 20px;
   color: #555;
-}
-
-#body_content, #side_body_content table {
-  margin-bottom: 0;
+  font-size: 14px;
 }
 
 .hidden {
