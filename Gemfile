@@ -2,9 +2,6 @@ source 'https://rubygems.org'
 
 gem 'rails', '3.2.8'
 
-# Bundle edge Rails instead:
-# gem 'rails', :git => 'git://github.com/rails/rails.git'
-
 gem 'mysql2'
 
 
@@ -28,11 +25,11 @@ gem 'jquery-rails', '~> 2.0.0'
 # To use Jbuilder templates for JSON
 # gem 'jbuilder'
 
-# Use unicorn as the app server
-# gem 'unicorn'
+gem 'unicorn'
 
-# Deploy with Capistrano
-# gem 'capistrano'
+group :development do
+  gem 'capistrano'
+end
 
 # To use debugger
 # gem 'debugger'
